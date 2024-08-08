@@ -6,66 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você gosta de chocolate?"
+        enunciado: "você gosta de desenhar?",
         alternativas: [
             {
-                texto: "Sim",
-                afirmacao: "Toma cuidado não coma muito!"
+                texto: "sim!",
+                afirmacao: "isso é bom, ajuda a refresca a mente. "
             },
             {
-                texto: "Não",
-                afirmacao: "É bom não vai correr rico de diabetes!"
+                texto: "não!",
+                afirmacao: "poderia aprender isso é bom pra mente."
             }
         ]
     },
     {
-        enunciado: "Você gosta de viajar?".
+        enunciado: "Você gsota de viajar?",
+        alternativas: [
             {
-                texto: "Sim",
-                afirmacao: "É muito bom refresca a mente!"
+                texto: "sim.",
+                afirmacao: "É bom as vezes viajar."
             },
             {
-                texto: "Não",
-                afirmacao: "As vezes e bom vijar faz bem pra vida!"
+                texto: "Não.",
+                afirmacao: "Poderia tirar uns dia pra fazer isso, você vai melhora muito."
             }
         ]
     },
     {
-        enunciado: "você é timdo?"
+        enunciado: "Você gosta de chocolate?",
         alternativas: [
             {
-                texto: "sim",
-                afirmacao: "Um lugar bom e teatro, resolve a timides! "
+                texto: "Sim.",
+                afirmacao: "Come com bastante cuidado se não vai ter consequência."
             },
             {
-                texto: "Não",
-                afirmacao: "Parabens você não tem uma coisa que muito temem"
+                texto: "Não.",
+                afirmacao: "Isso é bom não vai ter probrema com diabetes."
             }
         ]
     },
     {
-        enunciado: "você tem medo de injeção?",
+        enunciado: "você é timido?",
         alternativas: [
             {
-                texto: "Sim",
-                afirmacao: "então você é froxo, o negocio e tranquilo"
+                texto: "Sim.",
+                afirmacao: "Isso é ruim, mais faz teatro que ajuda a melhora essa timidez."
             },
             {
-                texto: "Não",
-                afirmacao: "Aí sim, você é caba macho"
+                texto: "Não.",
+                afirmacao: "Parabéns você não tem uma coisa que a maioria sofre!"
             }
         ]
     },
     {
-        enunciado: "você desenha?"
+        enunciado: "você tá namorando? ",
         alternativas: [
             {
-                texto: "sim",
-                afirmacao: "É bom desenhar, e um talento que muitos quer ter!"
+                texto: "sim.",
+                afirmacao: "Isso é bom, e ótimo quando tem alguem que ocê confia no seu lado."
             },
             {
-                texto: "Não",
-                afirmacao: "Poderia tentar aprende, ajuda a melhorar sua mente "
+                texto: "Não.",
+                afirmacao: "Ai é triste, o trem é fica sofreno sozin ai memo. "
             }
         ]
     },
